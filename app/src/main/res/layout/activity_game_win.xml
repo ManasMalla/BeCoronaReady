@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_gradient_background"
+    tools:context=".GameWinActivity">
+
+    <TextView
+        android:id="@+id/bullseyeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="Now that's \n Bull's-eye!"
+        android:textColor="#FFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/monsterImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bullseyeTextView"
+        app:srcCompat="@drawable/party_emoji" />
+
+    <TextView
+        android:id="@+id/praiseTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="Amazing, Words can define you, "
+        android:textColor="#FFF"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monsterImageView" />
+
+    <TextView
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bgbtn"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:onClick="continueOnClick"
+        android:paddingBottom="8dp"
+        android:text="@string/continueButton"
+        android:textColor="#6C50EC"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/praiseTextView" />
+
+    <TextView
+        android:id="@+id/goToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:onClick="homeOnClick"
+        android:text="Back to Home"
+        android:textColor="#AD87FF"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continueButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

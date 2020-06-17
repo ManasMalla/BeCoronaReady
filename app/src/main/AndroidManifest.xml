@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.manasmalla.becoronaready">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/be_corona_ready_icon_zoomed"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/be_corona_ready_icon_zoomed_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme">
+
+        <activity
+            android:name=".GuessMeActivity"
+            android:screenOrientation="userPortrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3494501080497265~9997131836" />
+
+        <activity
+            android:name=".WWDCLevel1"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".LostAnimationActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GameLoseActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/QuizTheme" />
+        <activity
+            android:name=".GameWinActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/QuizTheme" />
+        <activity
+            android:name=".QuizActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/QuizTheme" />
+        <activity
+            android:name=".JigsawPuzzleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".InfoActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".COVIDUpdatesActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="userPortrait" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="userPortrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.manasmalla.becoronaready.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

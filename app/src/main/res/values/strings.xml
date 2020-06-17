@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Be Corona Ready</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or_signup">Or, Signup</string>
+    <string name="EmailId">Email ID</string>
+    <string name="continueButton">Continue</string>
+    <string name="signUp">SignUp</string>
+    <string name="orLogin">or, Login</string>
+    <string name="hint_text">State</string>
+    <string name="quote"><b>Precaution! Prevent!\nProtect! Preserve!</b></string>
+    <string name="about_the_app">Humans 👨‍👩‍👧‍👦 are gifted with enormous potential and all of must strive together to stop this pandemic 🦠 outbreak at the earliest ,\nTake <b> Precaution ! 😷  </b> \nTry <b>Prevent</b> Spread 🧼👐🚰 ! \n<b>Protect </b> yourself and your neighbourhood 👨‍👩‍👧‍👦 🤧🤲 ! \n<b> Preserve </b> your health ♥️ and enrich your immunity! \nSeeing the situation that the novel coronavirus 2019 🦠 has created around me, made me question myself if I, as a student 👨🏻‍🎓 and developer 🧑🏻‍💻 how could I help in this global 🌏 crisis and challenging time ⏳. Then did, I get this idea about bringing awareness to people about the precautions, preventions and things to protect ourselves from COVID19 as well as preserve and enrich our health 👩🏻‍⚕️ in a playful and interactive way for everyone. We mainly tried to focus our interactive app to help kids 👧🏻👦🏻👦🏻👩🏻 get to know about coronavirus easily while enjoying.
+If you experience any symptoms of nCOVID-19, plesae visit your nearest health care centre 🏥👩🏻‍⚕️ or contact your medical care number 📱📞 at the earliest for a nCOVID-19 test! \n
+To know more about the app and usage pls visit @
+       <a href="http://www.youtube.com/channel/UCi-yplNduB04uW2rzB40CRA"> </a>
+        \nPlease share ♻️ with your friends, family and neighbours 👬 👨‍👩‍👧‍👦 so we can stop this pandemic 🦠 at the earliest ! \n Reach me out at : \n
+Youtube - <a href="http://www.youtube.com/channel/UCi-yplNduB04uW2rzB40CRA"> http://www.youtube.com/channel/UCi-yplNduB04uW2rzB40CRA </a> \n
+Instagram- <a href="http://www.instagram.com/@malla_manas"> http://www.instagram.com/@malla_manas </a> \n
+Facebook - <a href="https://www.facebook.com/manasmalla.dev"> https://www.facebook.com/manasmalla.dev </a> \n
+Twitter - <a href="https://twitter.com/manas_malla_"> https://twitter.com/manas_malla_ </a> \n
+Website 🌐 - <a href="https://manasmalla.github.io">https://manasmalla.github.io</a></string>
+    <string name="textBeCoronaReady">Ready to Fight nCOVID19 but don\'t know how? Here let me help you!</string>
+    <string name="game_view_content_description">Game view</string>
+</resources>

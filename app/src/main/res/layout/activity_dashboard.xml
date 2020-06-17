@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_background"
+    tools:context=".DashboardActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/safariBookImageView_dashboard"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/safari_background" />
+
+        <TextView
+            android:id="@+id/appTitleTextView_dashboard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/grilled_chesse"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/darkPurple"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/playGameButton"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="48dp"
+            android:onClick="playGameOnClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appTitleTextView_dashboard"
+            app:srcCompat="@drawable/play_game" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/userDashboardMaterialCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playGameButton">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/user_profile_imgView"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/add_profilepic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/usernameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/kgfont"
+                    android:text="User"
+                    android:textSize="36sp"
+                    app:layout_constraintStart_toEndOf="@+id/user_profile_imgView"
+                    app:layout_constraintTop_toTopOf="@+id/user_profile_imgView" />
+
+                <TextView
+                    android:id="@+id/scoreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kgneatlyprinted"
+                    android:text="20SP"
+                    android:textSize="28sp"
+                    app:layout_constraintStart_toStartOf="@+id/usernameTextView"
+                    app:layout_constraintTop_toBottomOf="@+id/usernameTextView" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <ImageView
+            android:id="@+id/graphButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="24dp"
+            android:adjustViewBounds="true"
+            android:onClick="graphOnClick"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userDashboardMaterialCardView"
+            app:srcCompat="@drawable/tracker" />
+
+        <ImageView
+            android:id="@+id/settingsButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:adjustViewBounds="true"
+            android:onClick="settingsOnClick"
+            app:layout_constraintBottom_toBottomOf="@+id/graphButton"
+            app:layout_constraintStart_toEndOf="@+id/graphButton"
+            app:layout_constraintTop_toTopOf="@+id/graphButton"
+            app:srcCompat="@drawable/img_settings" />
+
+        <ImageView
+            android:id="@+id/infoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:onClick="infoOnClick"
+            app:layout_constraintBottom_toBottomOf="@+id/settingsButton"
+            app:layout_constraintEnd_toStartOf="@+id/shareButton"
+            app:layout_constraintStart_toEndOf="@+id/settingsButton"
+            app:layout_constraintTop_toTopOf="@+id/settingsButton"
+            app:srcCompat="@drawable/info" />
+
+        <ImageView
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:adjustViewBounds="true"
+            android:onClick="shareOnClick"
+            app:layout_constraintBottom_toBottomOf="@+id/infoButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/infoButton"
+            app:srcCompat="@drawable/img_share" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

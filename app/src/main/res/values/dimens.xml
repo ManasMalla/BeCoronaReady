@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingOption">32dp</dimen>
+    <dimen name="daveHalf">75dp</dimen>
+    <dimen name="game_icon">60dp</dimen>
+    <dimen name="textSizeGame">30sp</dimen>
+</resources>

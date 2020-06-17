@@ -1,0 +1,123 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+	package
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:70-98
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:99-145
+	android:versionCode
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:1-20:12
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:3:11-69
+application
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:4:3-13:17
+	android:isGame
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:4:16-37
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:5:5-8:16
+	android:screenOrientation
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:5:111-147
+	android:launchMode
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:5:148-179
+	android:hardwareAccelerated
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:5:362-397
+	android:configChanges
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:5:180-361
+	android:theme
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:5:69-110
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:5:15-68
+meta-data#unityplayer.UnityActivity
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:6:7-82
+	android:value
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:6:59-79
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:6:18-58
+meta-data#android.notch_support
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:7:7-78
+	android:value
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:7:55-75
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:7:18-54
+meta-data#unity.splash-mode
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:9:5-69
+	android:value
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:9:49-66
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:9:16-48
+meta-data#unity.splash-enable
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:10:5-74
+	android:value
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:10:51-71
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:10:16-50
+meta-data#notch.config
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:11:5-81
+	android:value
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:11:44-78
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:11:16-43
+meta-data#unity.build-id
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:12:5-101
+	android:value
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:12:46-98
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:12:16-45
+uses-feature#0x00020000
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:14:3-52
+	android:glEsVersion
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:14:17-49
+uses-permission#android.permission.INTERNET
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:15:3-65
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:15:20-62
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:16:3-84
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:16:20-81
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:17:3-88
+	android:required
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:17:61-85
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:17:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:18:3-99
+	android:required
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:18:72-96
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:18:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:19:3-108
+	android:required
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:19:81-105
+	android:name
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml:19:17-80
+uses-sdk
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/manasmalla/AndroidStudioProjects/BeCoronaReady/WWDCSubmissions/unityLibrary/src/main/AndroidManifest.xml
